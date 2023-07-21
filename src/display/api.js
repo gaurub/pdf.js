@@ -3163,6 +3163,10 @@ class PDFObjects {
     return obj.data;
   }
 
+  keys() {
+    return Object.keys(this.#objs);
+  }
+
   /**
    * @param {string} objId
    * @returns {boolean}
